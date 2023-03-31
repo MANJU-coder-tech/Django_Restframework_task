@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>signin</title>
+</head>
+<body bgcolor=#DAF7A6>
+<form method="post">
+    {% csrf_token %}
+
+    <fieldset>
+        <legend>EMPLOYEE_SIGN_IN</legend>
+
+    user_name:<input type="text" name="user_name"><br>
+     password:<input type="text" name="password"><br>
+      <button type="submit" >LOGIN</button>
+        </fieldset>
+
+</form>
+
+
+</body>
+</html>
